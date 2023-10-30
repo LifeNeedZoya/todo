@@ -47,6 +47,7 @@ function App() {
 
   return (
     <div className="App">
+      <p>TIDO LIST UURLULT HIIW PUSHLEHIIN TULD</p>
       <TodoHeader doneTotal={doneTotal} total={todos.length} />
       <div id="">
         {todos.map((todo) => (
